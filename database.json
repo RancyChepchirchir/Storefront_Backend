@@ -1,0 +1,18 @@
+{
+    "dev": {
+        "driver": "pg",
+        "user": "drew",
+        "port": 5432,
+        "password": "123",
+        "host": "localhost",
+        "database": "storefront_backend"
+    },
+    "test": {
+        "driver": "pg",
+        "host": "localhost",
+        "port":5432,
+        "database": "storefront_test",
+        "user": "drew",
+        "password": "123"
+    }
+}
